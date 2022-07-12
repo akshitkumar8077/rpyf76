@@ -12,7 +12,7 @@ MultiSelect.Inject(CheckBoxSelection);
 // initialize the MultiSelect component
 let checkList: MultiSelect = new MultiSelect({
   // set the country data to dataSource property
-  dataSource: (data as any).countries,
+  dataSource: (data as any).options,
   // map the appropriate columns to fields property
   fields: { text: 'Name', value: 'Code' },
   // set the type of mode for checkbox to visualized the checkbox added in li element.
